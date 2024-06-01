@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+}
+.header-title {
+    margin: 0 0 0 252px;
+    font-size: 24px;
+}
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #2c3e50;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    color: white;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.logo i {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.logo-teks {
+    font-size: 1.5em; /* corrected from font-siza: 1.sem */
+    font-weight: bold;
+}
+.menu {
+    list-style-type: none; /* corrected from List-style-type: none */
+    padding: 0;
+}
+.menu li {
+    margin-bottom: 10px; /* corrected from Margin-bottom: 10px */
+}
+.menu li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-left: 5px solid transparent; /* corrected to show border color properly */
+}
+.menu li a i {
+    margin-right: 10px;
+    color:#ffffff;
+}
+.menu li a:hover,
+.menu li a.active {
+    background-color: #3498db;
+    border-left: 5px solid #e74c3c;
+}
+.content {
+    margin-left: 250px;
+    padding: 20px;
+    z-index: -1;
+}
+.content h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.content {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5; /* corrected from Line-height: 1.5 */
+    margin-top: 0;
+    margin-bottom: 150px;
+}
+.content p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5; /* corrected from Line-height: 1.5 */
+}
+.content ul {
+    list-style: none; /* corrected from list-style: name */
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.content ul li {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5; /* corrected from Line-height: 1.5 */
+    margin-bottom: 10px;
+}
+.content ul li i {
+    color: #3498db;
+    margin-right: 5px;
+}
+.content a {
+    color: #3498db;
+    text-decoration: none;
+}
+.content a:hover { /* corrected from .content a hower */
+    text-decoration: underline; /* corrected to show the underline on hover */
+}
+footer {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 10px 0; /* corrected from padding: spx 0 */
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
